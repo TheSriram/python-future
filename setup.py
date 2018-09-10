@@ -90,10 +90,9 @@ TEST_REQUIRES = []
 if sys.version_info[:2] == (2, 6):
     REQUIRES += ['importlib', 'argparse']
     TEST_REQUIRES += ['unittest2']
-import src.future
-VERSION = src.future.__version__
+VERSION = "0.16.0"
 DESCRIPTION = "Clean single-source support for Python 3 and 2"
-LONG_DESC = src.future.__doc__
+LONG_DESC = "This is a looooooooooong Description"
 AUTHOR = "Ed Schofield"
 AUTHOR_EMAIL = "ed@pythoncharmers.com"
 URL="https://python-future.org"
