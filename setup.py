@@ -90,7 +90,7 @@ TEST_REQUIRES = []
 if sys.version_info[:2] == (2, 6):
     REQUIRES += ['importlib', 'argparse']
     TEST_REQUIRES += ['unittest2']
-VERSION = "0.16.0"
+VERSION = "0.17.0"
 DESCRIPTION = "Clean single-source support for Python 3 and 2"
 LONG_DESC = "This is a looooooooooong Description"
 AUTHOR = "Ed Schofield"
